@@ -1,5 +1,4 @@
-# Website of the Trixi framework
+# Website of GSoC 2023 Blog
 
-This repository contains the source code of
-https://trixi-framework.github.io the official website of the
-[Trixi framework](https://github.com/trixi-framework).
+This repository contains the source code of the
+[GSoC 2023 Blog](https://github.com/trixi-framework) website.
