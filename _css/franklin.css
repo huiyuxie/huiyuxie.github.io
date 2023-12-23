@@ -241,9 +241,10 @@ td {
 ================================================================== */
 
 .franklin-content img {
-  width: 70%;
+  /* width: 70%; --> changed to `max-width` to keep badges small */
+  max-width: 70%;
   text-align: center;
-  padding-left: 10%;
+  /* padding-left: 10%; --> changed to avoid white space around badges */
 }
 
 .franklin-content .img-small img {
@@ -276,11 +277,6 @@ body { counter-reset: eqnum; }
   padding-right: 5px;
 }
 
-.nonumber .katex-display::after {
-  counter-increment: nothing;
-  content: "";
-}
-
 /* ==================================================================
     CODE & HIGHLIGHT.JS
 ================================================================== */
@@ -308,10 +304,15 @@ code {
   border-radius: 10px;
 }
 
-.hljs-meta { font-weight: bold;}
+.hljs-meta,
+.hljs-metas,
+.hljs-metap { font-weight: bold; }
 
-.hljs-meta.shell_ {color: crimson;}
-.hljs-meta.prompt_ {color: rgb(25, 179, 51);}
+.hljs-meta { color: rgb(25, 179, 51); }
+
+.hljs-metas { color: red; }
+
+.hljs-metap { color: rgb(51, 131, 231); }
 
 .code-output {
   background: var(--output-background);
