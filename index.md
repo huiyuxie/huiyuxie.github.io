@@ -12,6 +12,9 @@ Welcome to the GSoC 2023 Blog! Here, we'll share insights and updates about [Goo
   <div class="container">
     <img class="left" src="/assets/me.png" width="150" height="150">
     <p>
+    This project is under the organization of Google and Julia. It conducts the gpu accelcetion for the Trixi.jl project.
+
+    
     Huiyu(<a href="https://github.com/huiyuxie">@huiyuxie</a>) was selected as a contributor to initiate this project in GSoC 2023. She has a strong interest in GPU programming and harbors a love for mathematics and philosophy. She chose to continue her contribution to this project in her spare time.
     </p>
     <div style="clear: both"></div>
