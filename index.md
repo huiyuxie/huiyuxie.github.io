@@ -1,7 +1,4 @@
-@def title = "Google Summer of Code 2023"
-@def tags = ["syntax", "code"]
-
-# How to use Franklin
+# About Me
 
 \tableofcontents <!-- you can use \toc as well -->
 
