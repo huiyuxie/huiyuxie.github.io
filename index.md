@@ -1,3 +1,5 @@
+@def title = “Franklin Example” @def tags = [“syntax”, “code”]
+
 # About Me
 
 \tableofcontents <!-- you can use \toc as well -->
