@@ -1,11 +1,38 @@
 @def title = "GSoC 2023 Blog"
 @def maxtoclevel=2
 
-# About Me
+# GSoC 2023 Blog
 
-This page gives an overview of the different activities that, together,
-constitute the Trixi framework on [GitHub](https://github.com/orgs/trixi-framework).
+Welcome to the [GSoC 2023 Blog](https://huiyuxie.github.io/)! Here, we'll share insights and updates about [Google Summer of Code 2023](https://summerofcode.withgoogle.com/) and our project's development journey. Stay tuned for the latest on our progress and experiences in this wonderful program!
 
+### About Developer
+
+~~~
+<div class="row">
+  <div class="container">
+    <img class="left" src="/assets/me.png" width="150" height="150">
+    <p>
+    Huiyu(<a href="https://github.com/huiyuxie">@huiyuxie</a>) was selected as a contributor to initiate this project in GSoC 2023. She has a strong interest in GPU programming and harbors a love for mathematics and philosophy. She chose to continue her contribution to this project in her spare time.
+    </p>
+    <div style="clear: both"></div>
+  </div>
+</div>
+~~~
+
+### About Trixi Project
+~~~
+<div class="row">
+  <div class="container">
+    <img class="left" src="/assets/trixi.png" width="150" height="150">
+    <p>
+    Huiyu(<a href="https://github.com/huiyuxie">@huiyuxie</a>) was selected as a contributor to initiate this project in GSoC 2023. She has a strong interest in GPU programming and harbors a love for mathematics and philosophy. She chose to continue her contribution to this project in her spare time.
+    </p>
+    <div style="clear: both"></div>
+  </div>
+</div>
+~~~
+
+### Links to Blog Posts
 \toc
 
 ## Adaptive high-order numerical simulations of hyperbolic PDEs
