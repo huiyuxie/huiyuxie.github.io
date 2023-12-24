@@ -3,18 +3,16 @@
 
 # GSoC 2023 Blog
 
-Welcome to the GSoC 2023 Blog! Here, we'll share insights and updates about [Google Summer of Code 2023](https://summerofcode.withgoogle.com/) and our project's development journey. Stay tuned for the latest on our progress and experiences in this wonderful program!
+Welcome to the [GSoC 2023 Blog](https://huiyuxie.github.io/)! Here, we'll share insights and updates about [Google Summer of Code 2023](https://summerofcode.withgoogle.com/) and our project's development journey. Stay tuned for the latest on our progress and experiences in this wonderful program!
 
 ### About Developer
+
 
 ~~~
 <div class="row">
   <div class="container">
     <img class="left" src="/assets/me.png" width="150" height="150">
     <p>
-    This project is under the organization of Google and Julia. It conducts the gpu accelcetion for the Trixi.jl project.
-
-    
     Huiyu(<a href="https://github.com/huiyuxie">@huiyuxie</a>) was selected as a contributor to initiate this project in GSoC 2023. She has a strong interest in GPU programming and harbors a love for mathematics and philosophy. She chose to continue her contribution to this project in her spare time.
     </p>
     <div style="clear: both"></div>
@@ -23,357 +21,87 @@ Welcome to the GSoC 2023 Blog! Here, we'll share insights and updates about [Goo
 ~~~
 
 ### About Trixi Project
+
 ~~~
 <div class="row">
   <div class="container">
     <img class="left" src="/assets/trixi.png" width="150" height="150">
     <p>
-    Huiyu(<a href="https://github.com/huiyuxie">@huiyuxie</a>) was selected as a contributor to initiate this project in GSoC 2023. She has a strong interest in GPU programming and harbors a love for mathematics and philosophy. She chose to continue her contribution to this project in her spare time.
+    This project, supported by <a href="https://about.google/">Google</a> and <a href="https://julialang.org/">Julia</a>, focuses on accelerating the PDE discretization process using CUDA. The project serves as a GPU accelerator for <a href="https://github.com/trixi-framework/Trixi.jl">Trixi.jl</a>, employing <a href="https://github.com/JuliaGPU/CUDA.jl">CUDA.jl</a> and <a href="https://docs.nvidia.com/cuda/cuda-c-programming-guide/contents.html">CUDA/C++</a> for high-performance parallel computing. The project is currently under development.
     </p>
     <div style="clear: both"></div>
   </div>
 </div>
 ~~~
 
-### Links to Blog Posts
+### Links to Blog Posts (Sorted by Time)
+
 \toc
 
-## Adaptive high-order numerical simulations of hyperbolic PDEs
+## 2025 Blog Posts
 
-- [**Trixi.jl**](https://github.com/trixi-framework/Trixi.jl)
+## 2024 Blog Posts
 
-  Adaptive high-order numerical simulations of hyperbolic PDEs in Julia
+## 2023 Blog Posts
 
-- [**Trixi2Vtk.jl**](https://github.com/trixi-framework/Trixi2Vtk.jl)
+### Recent Presentation Wrap-up
+*Dec 20, 2023*
 
-  Convert output files generated with Trixi.jl to VTK
+The presentation covered topics about the GSoC 2023 project review, remaining precision issues, and future optimization plans. Some essential concepts about GPU memory layout, control flow divergence, and memory coalescing were also mentioned. The tiling algorithm and parallel sparse matrix computation are key components of optimization for our project. In the future, we will continue to optimize the project and improve the GPU performance of the project.
 
-- [**libtrixi**](https://github.com/trixi-framework/libtrixi)
+### Presentation about GPU Programming Optimization
+*Dec 19, 2023*
 
-  Use [Trixi.jl](https://github.com/trixi-framework/Trixi.jl) from C/C++/Fortran
+~~~
+<div class="row">
+  <div class="container">
+    <img class="left" src="/assets/slides.png" width="300" height="200">
+    <p>
+    Today Huiyu gave a presentation for the whole Trixi developer group.  Here are the complete presentation <a href="/assets/gsoc23.pdf">slides</a> for further details. Thanks to our developer, Huiyu, for the excellent presentation!
+    </p>
+    <div style="clear: both"></div>
+  </div>
+</div>
+~~~
 
-- [**SmartShockFinder.jl**](https://github.com/trixi-framework/SmartShockFinder.jl)
 
-  Create troubled cell indicators for Trixi.jl using artificial neural networks
+### GSoC23 Project Report Warp-up
+*Sep 05, 2023*
 
-## Mesh generation
+The project report has been published [here](https://gist.github.com/huiyuxie/44b561f9f854aada98fdb37036081454). To summarize, this summer project implemented PDE solvers for 1D, 2D, and 3D equation problems on GPU using CUDA, and the corresponding benchmarks and profiling were also conducted. There are some issues to be addressed in the future, including floating-point number precision and kernel optimization (e.g., data transfer between CPU and GPU).
 
-- [**HOHQMesh.jl**](https://github.com/trixi-framework/HOHQMesh.jl)
+### GSoC23 Final Evaluation Passed!
+*Sep 04, 2023*
 
-  HOHQMesh.jl is a Julia wrapper for the HOHQMesh mesh generator, which allows to
-  produce curved quadrilateral and hexahedral meshes for high-order numerical
-  simulations.
+~~~
+<div class="row">
+  <div class="container">
+    <img class="left" src="/assets/certificate.png" width="300" height="250">
+    <p>
+    Congrats! This project passed the final evaluation. Huiyu received a certificate from Google Summer of Code 2023 and Julia Community. Parallel implementation of solvers based on <a href="https://trixi-framework.github.io/Trixi.jl/stable/reference-trixi/#Trixi.DGSEM">DGSEM</a> with <a href="https://trixi-framework.github.io/Trixi.jl/stable/reference-trixi/#Trixi.TreeMesh">TreeMesh</a> is now completed and will continue to be further optimized. Here is a <a href="https://summerofcode.withgoogle.com/programs/2023/projects/upstR7K2">link</a> to the project on Google Summer of Code.
+    </p>
+    <div style="clear: both"></div>
+  </div>
+</div>
+~~~
 
-- [**HOHQMesh**](https://github.com/trixi-framework/HOHQMesh)
+### GSoC23 Midterm Evaluation Passed!
+*Jul 14, 2023*
 
-  High Order Hex-Quad Mesh (HOHQMesh) package to automatically generate
-  all-quadrilateral meshes with high order boundary information.
+Congrats! This project passed the midterm evaluation. Our developer, Huiyu, has been working hard on the project and has made great progress. The project is now halfway through and will continue to be developed.
 
-## Additional packages
+### GSoC23 Project Announced!
+*May 04, 2023* 
 
-- [**P4est.jl**](https://github.com/trixi-framework/P4est.jl)
-
-  P4est.jl is lightweight Julia wrapper for the p4est C library.
-
-- [**KROME.jl**](https://github.com/trixi-framework/KROME.jl)
-
-  KROME.jl is a lightweight Julia wrapper for KROME, a Fortran library for including
-  chemistry and microphysics in astrophysics simulations.
-
-- [**JuliaVTK/ReadVTK.jl**](https://github.com/JuliaVTK/ReadVTK.jl)
-
-  Julia package for reading VTK XML files (maintained by the Trixi framework
-  authors).
-
-## Publications
-
-The following publications make use of Trixi.jl or one of the other packages
-listed above. Author names of Trixi's main developers are in _italics_.
-
-### 2023
-
-- _Ranocha_, _Winters_, _Schlottke-Lakemper_, Öffner, Glaubitz, _Gassner_,
-  **High-order upwind summation-by-parts methods for nonlinear conservation laws**, 2023.\\
-  [![arXiv:2311.13888](https://img.shields.io/badge/arXiv-2311.13888-yellow)](https://arxiv.org/abs/2311.13888)
-  [![reproduce me!](https://img.shields.io/badge/reproduce-me!-brightgreen)](https://github.com/trixi-framework/paper-2023-upwind)
-
-- _Ranocha_, Schütz,
-  **Multiderivative time integration methods preserving nonlinear functionals via relaxation**, 2023.\\
-  [![arXiv:2311.03883](https://img.shields.io/badge/arXiv-2311.03883-yellow)](https://arxiv.org/abs/2311.03883)
-  [![reproduce me!](https://img.shields.io/badge/reproduce-me!-brightgreen)](https://github.com/ranocha/2023_multiderivative_relaxation)
-
-- _Ranocha_, Giesselmann,
-  **Stability of step size control based on a posteriori error estimates**, 2023.\\
-  [![arXiv:2307.12677](https://img.shields.io/badge/arXiv-2307.12677-yellow)](https://arxiv.org/abs/2307.12677)
-  [![reproduce me!](https://img.shields.io/badge/reproduce-me!-brightgreen)](https://github.com/ranocha/2023_RK_error_estimate)
-
-- _Chan_, Shukla, Wu, Liu, Nalluri,
-  **High order entropy stable schemes for the quasi-one-dimensional shallow
-  water and compressible Euler equations**, 2023.\\
-  [![arXiv:2307.12089](https://img.shields.io/badge/arXiv-2307.12089-yellow)](https://arxiv.org/abs/2307.12089)
-
-- Ersing, _Winters_,
-  **An entropy stable discontinuous Galerkin method for the two-layer
-  shallow water equations on curvilinear meshes**, 2023.\\
-  [![arXiv:2306.12699](https://img.shields.io/badge/arXiv-2306.12699-yellow)](https://arxiv.org/abs/2306.12699)
-  [![reproduce me!](https://img.shields.io/badge/reproduce-me!-brightgreen)](https://github.com/trixi-framework/paper-2023-es_two_layer)
-
-- Rueda-Ramírez, Bolm, Kuzmin, _Gassner_,
-  **Monolithic Convex Limiting for Legendre–Gauss–Lobatto Discontinuous Galerkin
-  Spectral Element Methods**, 2023.\\
-  [![arXiv:2303.00374](https://img.shields.io/badge/arXiv-2303.00374-yellow)](https://arxiv.org/abs/2303.00374)
-  [![reproduce me!](https://img.shields.io/badge/reproduce-me!-brightgreen)](https://github.com/amrueda/paper_2023_MCL_LGL-DGSEM)
-
-- _Ranocha_,
-  **A discontinuous Galerkin discretization of elliptic problems with improved
-  convergence properties using summation by parts operators**, 2023.\\
-  [![arXiv:2302.12488](https://img.shields.io/badge/arXiv-2302.12488-yellow)](https://arxiv.org/abs/2302.12488)
-  [![doi:10.1016/j.jcp.2023.112367](https://zenodo.org/badge/doi/10.1016/j.jcp.2023.112367.svg)](https://doi.org/10.1016/j.jcp.2023.112367)
-  [![reproduce me!](https://img.shields.io/badge/reproduce-me!-brightgreen)](https://github.com/ranocha/2023_elliptic)
-
-- _Ranocha_, _Winters_, Castro, Dalcin, _Schlottke-Lakemper_, _Gassner_, Parsani,
-  **On error-based step size control for discontinuous Galerkin methods for
-  compressible fluid dynamics**, 2023.\\
-  [![arXiv:2209.07037](https://img.shields.io/badge/arXiv-2209.07037-yellow)](https://arxiv.org/abs/2209.07037)
-  [![doi:10.1007/s42967-023-00264-y](https://zenodo.org/badge/doi/10.1007/s42967-023-00264-y.svg)](https://doi.org/10.1007/s42967-023-00264-y)
-  [![reproduce me!](https://img.shields.io/badge/reproduce-me!-brightgreen)](https://github.com/trixi-framework/paper-2022-stepsize_control)
-
-- _Ranocha_, _Schlottke-Lakemper_, _Chan_, Rueda-Ramírez, _Winters_, Hindenlang, _Gassner_,
-  **Efficient implementation of modern entropy stable and kinetic energy
-  preserving discontinuous Galerkin methods for conservation laws**, ACM Transactions on Mathematical Software, 2023.\\
-  [![arXiv:2112.10517](https://img.shields.io/badge/arXiv-2112.10517-yellow)](https://arxiv.org/abs/2112.10517)
-  [![doi:10.1145/3625559](https://zenodo.org/badge/doi/10.1145/3625559.svg)](https://doi.org/10.1145/3625559)
-  [![reproduce me!](https://img.shields.io/badge/reproduce-me!-brightgreen)](https://github.com/trixi-framework/paper-2021-EC_performance)
-
-### 2022
-
-- _Chan_, _Ranocha_, Rueda-Ramírez, _Gassner_, Warburton,
-  **On the entropy projection and the robustness of high order entropy stable
-  discontinuous Galerkin schemes for under-resolved flows**, 2022.\\
-  [![arXiv:2203.10238](https://img.shields.io/badge/arXiv-2203.10238-yellow)](https://arxiv.org/abs/2203.10238)
-  [![doi:10.3389/fphy.2022.898028](https://zenodo.org/badge/doi/10.3389/fphy.2022.898028.svg)](https://doi.org/10.3389/fphy.2022.898028)
-  [![reproduce me!](https://img.shields.io/badge/reproduce-me!-brightgreen)](https://github.com/trixi-framework/paper-2022-robustness-entropy-projection)
-
-- Rueda-Ramírez, Pazner, _Gassner_,
-  **Subcell limiting strategies for discontinuous Galerkin spectral element methods**, 2022.\\
-  [![arXiv:2202.00576](https://img.shields.io/badge/arXiv-2202.00576-yellow)](https://arxiv.org/abs/2202.00576)
-  [![doi:10.1016/j.compfluid.2022.105627](https://zenodo.org/badge/doi/10.1016/j.compfluid.2022.105627.svg)](https://doi.org/10.1016/j.compfluid.2022.105627)
-
-- Lukáčová-Medvid’ová, Öffner,
-  **Convergence of Discontinuous Galerkin Schemes for the Euler Equations
-  via Dissipative Weak Solutions**, 2022.\\
-  [![arXiv:2202.10043](https://img.shields.io/badge/arXiv-2202.10043-yellow)](https://arxiv.org/abs/2202.10043)
-  [![doi:10.1016/j.amc.2022.127508](https://zenodo.org/badge/doi/10.1016/j.amc.2022.127508.svg)](https://doi.org/10.1016/j.amc.2022.127508)
-
-- _Ranocha_,
-  **A Note on Numerical Fluxes Conserving Harten's Entropies for the
-  Compressible Euler Equations**, 2022.\\
-  [![arXiv:2201.03946](https://img.shields.io/badge/arXiv-2201.03946-yellow)](https://arxiv.org/abs/2201.03946)
-  [![doi:10.1016/j.jcp.2022.111236](https://zenodo.org/badge/doi/10.1016/j.jcp.2022.111236.svg)](https://doi.org/10.1016/j.jcp.2022.111236)
-  [![reproduce me!](https://img.shields.io/badge/reproduce-me!-brightgreen)](https://github.com/ranocha/paper-2022-Euler_Harten_EC)
-
-- _Ranocha_, _Schlottke-Lakemper_, _Winters_, _Faulhaber_, _Chan_, _Gassner_,
-  **Adaptive numerical simulations with Trixi.jl: A case study of Julia for
-  scientific computing**, JuliaCon Proceedings, 77, 2022.\\
-  [![arXiv:2108.06476](https://img.shields.io/badge/arXiv-2108.06476-yellow)](https://arxiv.org/abs/2108.06476)
-  [![doi:10.21105/jcon.00077](https://zenodo.org/badge/doi/10.21105/jcon.00077.svg)](https://doi.org/10.21105/jcon.00077)
-  [![reproduce me!](https://img.shields.io/badge/reproduce-me!-brightgreen)](https://github.com/trixi-framework/paper-2021-juliacon)
-
-- _Gassner_, Svärd, Hindenlang,
-  **Stability Issues of Entropy-Stable and/or Split-form High-order Schemes**, 2022.\\
-  [![arXiv:2007.09026](https://img.shields.io/badge/arXiv-2007.09026-yellow)](https://arxiv.org/abs/2007.09026)
-  [![doi:10.1007/s10915-021-01720-8](https://zenodo.org/badge/doi/10.1007/s10915-021-01720-8.svg)](https://doi.org/10.1007/s10915-021-01720-8)
-
-### 2021
-
-- Singh, Chandrashekar, **On a linear stability issue of split form schemes for
-  compressible flows**, 2021.\\
-  [![arXiv:2104.14941](https://img.shields.io/badge/arXiv-2104.14941-yellow)](https://arxiv.org/abs/2104.14941)
-
-- _Ranocha_, _Gassner_, **Preventing pressure oscillations does not fix local
-  linear stability issues of entropy-based split-form high-order schemes**,
-  Communications on Applied Mathematics and Computation, 2021.\\
-  [![arXiv:2009.13139](https://img.shields.io/badge/arXiv-2009.13139-yellow)](https://arxiv.org/abs/2009.13139)
-  [![doi:10.1007/s42967-021-00148-z](https://zenodo.org/badge/doi/10.1007/s42967-021-00148-z.svg)](https://doi.org/10.1007/s42967-021-00148-z)
-  [![reproduce me!](https://img.shields.io/badge/reproduce-me!-brightgreen)](https://github.com/trixi-framework/paper-EC-KEP-PEP)
-
-- _Schlottke-Lakemper_, _Winters_, _Ranocha_, _Gassner_,
-  **A purely hyperbolic discontinuous Galerkin approach for self-gravitating
-  gas dynamics**, Journal of Computational Physics (442), 110467, 2021.\\
-  [![arXiv:2008.10593](https://img.shields.io/badge/arXiv-2008.10593-yellow)](https://arxiv.org/abs/2008.10593)
-  [![doi:10.1016/j.jcp.2021.110467](https://zenodo.org/badge/doi/10.1016/j.jcp.2021.110467.svg)](https://doi.org/10.1016/j.jcp.2021.110467)
-  [![reproduce me!](https://img.shields.io/badge/reproduce-me!-brightgreen)](https://github.com/trixi-framework/paper-self-gravitating-gas-dynamics)
-
-## Talks
-
-### 2023
-
-- **Challenges of sustainable research software engineering in Trixi.jl**\\
-  _Schlottke-Lakemper_\\
-  27th October 2023, MBD Colloquium, Aachen, Germany
-
-- **Julia for scientific high-performance computing: opportunities and challenges**\\
-  _Schlottke-Lakemper_\\
-  6th October 2023, Ferrite.jl User & Developer Conference, Bochum, Germany
-
-- **Scaling Trixi.jl to more than 10,000 cores using MPI**\\
-  _Schlottke-Lakemper_, _Ranocha_\\
-  27th July 2023, JuliaCon 2023, Cambridge, US
-
-- **Massively Parallel Computational Fluid Dynamics with Julia and Trixi.jl**\\
-  _Schlottke-Lakemper_\\
-  28th June 2023, PASC Conference, Davos, Switzerland
-
-- **Research Software Engineering for Sustainable Scientific Computing**\\
-  _Schlottke-Lakemper_\\
-  30th January 2023, SSD Seminar Series, Aachen, Germany
-
-- **Trixi.jl: High-Order Numerical Simulations of Conservation Laws in Julia**\\
-  _Schlottke-Lakemper_\\
-  19th January 2023, SNuBIC Seminar\\
-  [tutorials & notebooks](https://github.com/trixi-framework/tutorial-2023-snubic)
-
-### 2022
-
-- **Robust and efficient high-performance computational fluid dynamics enabled by modern numerical methods and technologies**\\
-  _Ranocha_\\
-  3rd November 2022, MUSEN Colloquium, TU Braunschweig, Germany
-
-- **Reproducibility as a service: collaborative scientific computing with Julia**\\
-  _Schlottke-Lakemper_, _Ranocha_\\
-  27th October 2022, MaRDI Workshop for Scientific Computing, Münster, Germany
-
-- **From Mesh Generation to Adaptive Simulation: A Journey in Julia**\\
-  _Winters_\\
-  27th July 2022, JuliaCon 2022\\
-  [recorded talk on YouTube](https://youtu.be/_N4ozHr-t9E) | [presentation & code](https://github.com/trixi-framework/talk-2022-juliacon_toolchain)
-
-- **Running Julia code in parallel with MPI: Lessons learned**\\
-  _Christmann_, Neher, _Schlottke-Lakemper_\\
-  26th July 2022, Julia for HPC Minisymposium, JuliaCon 2022\\
-  [recorded talk on YouTube](https://youtu.be/fog1x9rs71Q?t=5172) | [presentation](https://github.com/JuliaParallel/juliacon-2022-julia-for-hpc-minisymposium)
-
-- **Extensible Computational Fluid Dynamics in Julia with Trixi.jl**\\
-  _Schlottke-Lakemper_, _Ranocha_, _Gassner_\\
-  25th February 2022, SIAM Conference on Parallel Processing for Scientific Computing, Seattle, US
-
-### 2021
-
-- **Research software development with Julia**\\
-  _Schlottke-Lakemper_, _Ranocha_\\
-  27th September 2021, NFDI4Ing Conference 2021
-
-- **Adaptive high-order numerical simulations with Trixi.jl**\\
-  _Schlottke-Lakemper_, _Ranocha_\\
-  9th September 2021, CliMA Seminar, California Institute of Technology
-
-- **Adaptive and extendable numerical simulations with Trixi.jl**\\
-  _Schlottke-Lakemper_, _Ranocha_\\
-  30th July 2021, JuliaCon 2021\\
-  [presentation & notebooks](https://github.com/trixi-framework/talk-2021-juliacon) |
-  [recorded talk on YouTube](https://www.youtube.com/watch?v=hoViWRAhCBE)
-
-- **Trixi.jl: High-Order Numerical Simulations of Hyperbolic PDEs in Julia**\\
-  _Ranocha_, _Schlottke-Lakemper_, _Winters_\\
-  14th July 2021, ICOSAHOM 2021\\
-  [tutorials & notebooks](https://github.com/trixi-framework/tutorial-2021-icosahom)
-
-- **Introduction to Julia and Trixi, a numerical simulation framework for hyperbolic PDEs**\\
-  _Ranocha_\\
-  27th April 2021, Applied Mathematics Seminar, University of Münster\\
-  [presentation](https://github.com/trixi-framework/talk-2021-Introduction_to_Julia_and_Trixi)
-
-- **Purely hyperbolic self-gravitating flow simulations in Julia**\\
-  _Schlottke-Lakemper_, _Winters_, _Ranocha_, _Gassner_\\
-  15th March 2021, GAMM Annual Meeting 2021
-
-- **Julia for adaptive high-order multi-physics simulations**\\
-  _Schlottke-Lakemper_\\
-  27th January 2021, Numerical Analysis Seminar, Lund University\\
-  [presentation & notebooks](https://github.com/trixi-framework/talk-2021-julia-adaptive-multi-physics-simulations)
-
-## Authors
-
-[Michael Schlottke-Lakemper](https://lakemper.eu)
-(RWTH Aachen University, Germany),
-[Gregor Gassner](https://www.mi.uni-koeln.de/NumSim/gregor-gassner) (University of Cologne,
-Germany),
-[Hendrik Ranocha](https://ranocha.de/) (University of Hamburg, Germany),
-[Andrew Winters](https://liu.se/en/employee/andwi94) (Linköping University, Sweden), and
-[Jesse Chan](https://jlchan.github.io/) (Rice University, US) are the
-principal developers of
-[Trixi.jl](https://github.com/trixi-framework/Trixi.jl).
-[David A. Kopriva](https://www.math.fsu.edu/~kopriva/) (Florida State University,
-US) is the principal developer of [HOHQMesh](https://github.com/trixi-framework/HOHQMesh)
-and [HOHQMesh.jl](https://github.com/trixi-framework/HOHQMesh.jl).
-For a full list of authors, please check out the respective packages.
-
-## Get in touch!
-
-There are a number of ways to reach out to us:
-
-- Meet us on [Slack](https://join.slack.com/t/trixi-framework/shared_invite/zt-sgkc6ppw-6OXJqZAD5SPjBYqLd8MU~g)
-- Create an issue in one of the repositories listed on this page
-- Get in touch with one of the [Trixi Authors](https://github.com/trixi-framework/Trixi.jl/blob/main/AUTHORS.md)
+This project was officially accepted as a GSoC 2023 project. Our developer, Huiyu, got in touch with the mentors and the community and started preparing for the project. Cloud NVIDIA GPUs of type *p3.2xlarge* were set up on [AWS](https://aws.amazon.com/) in preparation for the project by the developer. Our developer created a comprehensive [guide](https://github.com/huiyuxie/trixi_cuda/blob/main/docs/aws_gpu_setup.md) for community members interested in cloud GPU services.
 
 ## Acknowledgments
 
-```
-<div style="width: 100%; text-align: center; font-size: 0;">
-  <div><!--
-    BMBF     --><img src="https://github.com/trixi-framework/Trixi.jl/assets/3637659/f59af636-3098-4be6-bf80-c6be3f17cbc6" style="height: 120px; width: auto"><!--
-    DFG      --><img src="https://github.com/trixi-framework/Trixi.jl/assets/3637659/e67b9ed3-7699-466a-bdaf-2ba070a29a8e" style="height: 120px; width: auto"><!--
-    -->
-  </div>
-  <div><!--
-    SRC      --><img src="https://github.com/trixi-framework/Trixi.jl/assets/3637659/48f9da06-6f7a-4586-b23e-739bee3901c0" style="height: 120px; width: auto"><!--
-    ERC      --><img src="https://github.com/trixi-framework/Trixi.jl/assets/3637659/9371e7e4-3491-4433-ac5f-b3bfb215f5ca" style="height: 120px; width: auto"><!--
-    -->
-  </div>
-  <div><!--
-    NSF      --><img src="https://github.com/trixi-framework/Trixi.jl/assets/3637659/5325103c-ae81-4747-b87c-c6e4a1b1d7a8" style="height: 120px; width: auto"><!--
-    DUBS     --><img src="https://github.com/trixi-framework/Trixi.jl/assets/3637659/bb021e6e-42e6-4fe1-a414-c847402e1937" style="height: 120px; width: auto"><!--
-    -->
-  </div>
-  <div><!--
-    NumFOCUS --><img src="https://github.com/trixi-framework/Trixi.jl/assets/3637659/8496ac9e-b586-475f-adb7-69bcfc415185" style="height: 120px; width: auto"><!--
-    -->
-  </div>
-</div>
-```
+The entire project, along with this blog website, is developed and maintained by Huiyu([@huiyuxie](https://github.com/huiyuxie)). The whole project is under the guidance of two outstanding professors, Hendrik([@ranocha](https://github.com/ranocha)) and Michael([@sloede](https://github.com/sloede)), from Trixi Framework community. 
 
-This project has benefited from funding by the [Deutsche
-Forschungsgemeinschaft](https://www.dfg.de/) (DFG, German Research Foundation)
-through the following grants:
+The project also received support from other Julia contributors,  including Jesse([@jlchan](https://github.com/jlchan)) from Trixi Framework community and Tim([@maleadt](https://github.com/maleadt)) from JuliaGPU community.
 
-- Excellence Strategy EXC 2044-390685587, Mathematics Münster: Dynamics-Geometry-Structure.
-- Research unit FOR 5409 "Structure-Preserving Numerical Methods for Bulk- and
-  Interface Coupling of Heterogeneous Models (SNuBIC)" (project number 463312734).
-- Individual grant no. 528753982.
+Big thanks to all those who have contributed to the development of this project!
 
-This project has benefited from funding from the [European Research Council](https://erc.europa.eu)
-through the
-ERC Starting Grant "An Exascale aware and Un-crashable Space-Time-Adaptive
-Discontinuous Spectral Element Solver for Non-Linear Conservation Laws" (Extreme),
-ERC grant agreement no. 714487.
-
-This project has benefited from funding from [Vetenskapsrådet](https://www.vr.se)
-(VR, Swedish Research Council), Sweden
-through the VR Starting Grant "Shallow water flows including sediment transport and morphodynamics",
-VR grant agreement 2020-03642 VR.
-
-This project has benefited from funding from the United States
-[National Science Foundation](https://www.nsf.gov/) (NSF) under awards
-DMS-1719818 and DMS-1943186.
-
-This project has benefited from funding from the German
-[Federal Ministry of Education and Research](https://www.bmbf.de) (BMBF)
-through the project grant "Adaptive earth system modeling
-with significantly reduced computation time for exascale supercomputers
-(ADAPTEX)" (funding id: 16ME0668K).
-
-This project has benefited from funding by the
-[Daimler und Benz Stiftung](https://www.daimler-benz-stiftung.de) (Daimler and Benz Foundation)
-through grant no. 32-10/22.
-
-Trixi.jl is supported by [NumFOCUS](https://numfocus.org/) as an Affiliated Project.
+## Contact Our Developer
+If you have questions, suggestions, or are interested in contributing, feel free to reach out our developer, Huiyu, via email at [huiyuxie.sde@gmail.com](mailto:huiyuxie.sde@gmail.com).
