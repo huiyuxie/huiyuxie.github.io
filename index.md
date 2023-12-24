@@ -65,7 +65,7 @@ The presentation covered topics about the GSoC 2023 project review, remaining pr
 ~~~
 
 
-### GSoC23 Project Report Warp-up
+### GSoC23 Project Report Wrap-up
 *Sep 05, 2023*
 
 The project report has been published [here](https://gist.github.com/huiyuxie/44b561f9f854aada98fdb37036081454). To summarize, this summer project implemented PDE solvers for 1D, 2D, and 3D equation problems on GPU using CUDA, and the corresponding benchmarks and profiling were also conducted. There are some issues to be addressed in the future, including floating-point number precision and kernel optimization (e.g., data transfer between CPU and GPU).
