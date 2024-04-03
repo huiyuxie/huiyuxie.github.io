@@ -13,7 +13,7 @@ Welcome to the [GSoC 2023 Blog](https://huiyuxie.github.io/)! Here, we'll share 
   <div class="container">
     <img class="left" src="/assets/me.jpeg" width="150" height="150">
     <p>
-    Huiyu(<a href="https://github.com/huiyuxie">@huiyuxie</a>) was selected as a contributor to initiate this project in GSoC 2023. She has a strong interest in GPU programming and harbors a love for mathematics and philosophy. She chose to continue her contribution to this project in her spare time.
+    Huiyu(<a href="https://github.com/huiyuxie">@huiyuxie</a>) was selected as a contributor to initiate a project in GSoC 2023. She has a strong interest in high-performance computing (HPC), particularly in optimizing parallel computing on GPUs, as well as a passion for mathematics, especially in numerical analysis. She continues to contribute to this project in her spare time.
     </p>
     <div style="clear: both"></div>
   </div>
@@ -48,17 +48,13 @@ Welcome to the [GSoC 2023 Blog](https://huiyuxie.github.io/)! Here, we'll share 
   <div class="container">
     <img class="left" src="/assets/slides.png" width="300" height="200">
     <p>
-    Today Huiyu gave a presentation for the whole Trixi developer group.  Here are the complete presentation <a href="/assets/gsoc23.pdf">slides</a> for further details. Thanks to our developer, Huiyu, for the excellent presentation!
+    Today, Huiyu delivered a presentation to the entire Trixi developer group, covering key topics from the GSoC 2023 project review, including remaining precision issues and future optimization plans. The presentation highlighted essential concepts such as GPU memory layout, control flow divergence, and memory coalescing, along with the significance of the tiling algorithm and parallel sparse matrix computation in optimizing our project. Going forward, she will continue to enhance the project's GPU performance.
     </p>
     <div style="clear: both"></div>
   </div>
 </div>
 ~~~
 
-### Recent Presentation Wrap-up
-*Dec 20, 2023*
-
-The presentation covered topics about the GSoC 2023 project review, remaining precision issues, and future optimization plans. Some essential concepts about GPU memory layout, control flow divergence, and memory coalescing were also mentioned. The tiling algorithm and parallel sparse matrix computation are key components of optimization for our project. In the future, we will continue to optimize the project and improve the GPU performance of the project.
 
 ## Post-GSoC23
 
