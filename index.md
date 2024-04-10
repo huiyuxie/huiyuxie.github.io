@@ -57,6 +57,7 @@ Welcome to the [GSoC 2023 Blog](https://huiyuxie.github.io/)! Here, we'll share 
 
 
 ## Post-GSoC23
+* **Rounding Error Analysis in Weak Form Kernel for 1D Equation on GPU**, *Apr 9, 2024*. [![PDF](https://img.shields.io/badge/View-PDF-blue.svg)](/assets/files/rounding.pdf)
 
 * **GPU Programming Optimization: Flow Divergence, Memory Coalescing, and Sparse Matrix Computation (Presentation)**, *Dec 19, 2023*. [![PDF](https://img.shields.io/badge/View-PDF-blue.svg)](/assets/files/present.pdf)
 
