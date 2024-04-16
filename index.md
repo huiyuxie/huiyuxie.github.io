@@ -72,7 +72,7 @@ Welcome to the [GSoC 2023 Blog](https://huiyuxie.github.io/)! Here, we'll share 
 
 * **GPU Acceleration for PDE Discretization in Trixi.jl Using CUDA.jl (GSoC Proposal)**, *Apr 3, 2023*. [![PDF](https://img.shields.io/badge/View-PDF-blue.svg)](/assets/files/proposal.pdf) 
 
-* **Matrix-Vector Representation of Discretization in 1D Linear Advection Equation**, *Apr 2, 2023*. [![PDF](https://img.shields.io/badge/View-PDF-blue.svg)](/assets/files/prework.pdf) [![GitHub](https://img.shields.io/badge/GitHub-Repository-green)](https://github.com/huiyuxie/linear_advection_cuda)
+* **Matrix-Vector Representation of Discretization in 1D Linear Advection Equation**, *Apr 2, 2023*. [![PDF](https://img.shields.io/badge/View-PDF-blue.svg)](/assets/files/vector_matrix.pdf) [![GitHub](https://img.shields.io/badge/GitHub-Repository-green)](https://github.com/huiyuxie/linear_advection_cuda)
 
 
 ## Acknowledgments
