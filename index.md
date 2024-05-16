@@ -1,19 +1,22 @@
 @def title = "GSoC 2023 Blog"
 @def maxtoclevel=2
 
-# GSoC 2023 Blog
+# Google Summer of Code Project 
 
-Welcome to the [GSoC 2023 Blog](https://huiyuxie.github.io/)! Here, we'll share insights and updates about [Google Summer of Code 2023](https://summerofcode.withgoogle.com/) and our project's development journey. Stay tuned for the latest on our progress and experiences in this wonderful program!
+Welcome to our GSoC 2023 Project - *GPU Acceleration for PDE Solvers*! 
+
+Here we share insights and updates about [Google Summer of Code 2023](https://summerofcode.withgoogle.com/) and the development journey of our project. Stay tuned for the latest on our progress and experiences in this wonderful program! 
+
+Notes: The latest progress of our project can be checked [here](https://github.com/users/huiyuxie/projects/2/views/1).
 
 ### About Developer
-
 
 ~~~
 <div class="row">
   <div class="container">
-    <img class="left" src="/assets/me.jpeg" width="150" height="150">
+    <img class="left" src="/assets/profile.jpeg" width="150" height="150">
     <p>
-    Huiyu(<a href="https://github.com/huiyuxie">@huiyuxie</a>) was selected as a contributor to initiate a project in GSoC 2023. She has a strong interest in high-performance computing (HPC), particularly in optimizing parallel computing on GPUs, as well as a passion for mathematics, especially in numerical analysis. She continues to contribute to this project in her spare time.
+    Huiyu(<a href="https://github.com/huiyuxie">@huiyuxie</a>) was selected as a contributor for GSoC 2023. She is passionate about high-performance computing (HPC), particularly in optimizing parallel computing on both CPUs and GPUs, and has an interest in mathematics, especially in numerical analysis. She continues to contribute to this project in her spare time.
     </p>
     <div style="clear: both"></div>
   </div>
@@ -27,7 +30,7 @@ Welcome to the [GSoC 2023 Blog](https://huiyuxie.github.io/)! Here, we'll share 
   <div class="container">
     <img class="left" src="/assets/trixi.png" width="150" height="150">
     <p>
-    This project, supported by <a href="https://about.google/">Google</a> and <a href="https://julialang.org/">Julia</a>, focuses on accelerating the partial differential equation (PDE) discretization process using CUDA. The project serves as a GPU accelerator for <a href="https://github.com/trixi-framework/Trixi.jl">Trixi.jl</a>, employing <a href="https://github.com/JuliaGPU/CUDA.jl">CUDA.jl</a> and <a href="https://docs.nvidia.com/cuda/cuda-c-programming-guide/contents.html">CUDA/C++</a> for high-performance parallel computing. The project is currently under development.
+    This project, supported by <a href="https://julialang.org/">Julia</a> and <a href="https://about.google/">Google</a>, focuses on accelerating the partial differential equation (PDE) discretization process by parallel programming. The project serves as a GPU accelerator for <a href="https://github.com/trixi-framework/Trixi.jl">Trixi.jl</a>, employing <a href="https://github.com/JuliaGPU/CUDA.jl">CUDA.jl</a> (with support for <a href="https://github.com/JuliaGPU/AMDGPU.jl">AMDGPU.jl</a>, <a href="https://github.com/JuliaGPU/oneAPI.jl">	OneAPI.jl</a>, and <a href="https://github.com/JuliaGPU/Metal.jl">Metal.jl</a> incoming) to achieve high-performance computing.
     </p>
     <div style="clear: both"></div>
   </div>
@@ -38,22 +41,24 @@ Welcome to the [GSoC 2023 Blog](https://huiyuxie.github.io/)! Here, we'll share 
 
 \toc
 
-## Recent Blog
+## Recent Announcements
 
-### Presentation about GPU Programming Optimization
-*Dec 19, 2023*
+### New GPU Optimization Methods in Plan
+*May 15, 2024*
 
-~~~
-<div class="row">
-  <div class="container">
-    <img class="left" src="/assets/slides.png" width="300" height="200">
-    <p>
-    Today, Huiyu delivered a presentation to the entire Trixi developer group, covering key topics from the GSoC 2023 project review, including remaining precision issues and future optimization plans. The presentation highlighted essential concepts such as GPU memory layout, control flow divergence, and memory coalescing, along with the significance of the tiling algorithm and parallel sparse matrix computation in optimizing our project. Going forward, she will continue to enhance the project's GPU performance.
-    </p>
-    <div style="clear: both"></div>
-  </div>
-</div>
-~~~
+The original GPU implementation is planned to be optimized in these general ways:
+- Memory coalescing through shared memory 
+- Sparse matrix computation through CSC and CSR
+- Compensated summation algorithm
+
+These optimizations, along with continuing development, will begin in the summer of 2024. The developer will be in Hawaii this summer :)
+
+### Numeric Type Stability in Upstream
+*Apr 28, 2024*
+
+Currently, double-precision floating-point numbers (`Float64`) are supported with type stability in the upstream repository. To add GPU support to Trixi.jl, we have to include support for single-precision floating-point numbers (`Float32`) to achieve significant speedup. This issue is addressed as a preliminary step for the entire CUDA project. 
+
+Please check [here](https://github.com/huiyuxie/trixi_cuda/issues/12) for more details.
 
 
 ## Post-GSoC23
