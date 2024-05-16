@@ -1,3 +1,3 @@
-# Website of GSoC 2023 Blog
+# Website of Google Summer of Code Project
 
-This repository contains the source code of the [GSoC 2023 Blog](https://huiyuxie.github.io/) website.
+This repository contains the source code of the [Google Summer of Code Project](https://huiyuxie.github.io/) website.
