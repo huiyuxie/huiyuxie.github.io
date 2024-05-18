@@ -1,4 +1,4 @@
-@def title = "GSoC 2023 Blog"
+@def title = "Google Summer of Code Project"
 @def maxtoclevel=2
 
 # Google Summer of Code Project 

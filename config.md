@@ -13,9 +13,9 @@ ignore = ["node_modules/"]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = true
-website_title = "Trixi Framework"
-website_descr = "Overview of the activities within the Trixi Framework"
-website_url   = "https://trixi-framework.github.io/"
+website_title = "Google Summer of Code Project"
+website_descr = "Overview of the GSoC project within the Trixi Framework"
+website_url   = "https://huiyuxie.github.io/"
 +++
 
 <!--
