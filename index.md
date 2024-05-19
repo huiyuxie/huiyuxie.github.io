@@ -3,11 +3,11 @@
 
 # Google Summer of Code Project 
 
-Welcome to our GSoC 2023 Project - *GPU Acceleration for PDE Solvers*! 
+**_NEWS!_** &nbsp;The new module [**_Optimization_**](/optimization/) has been launched recently to provide the specific optimization process for this GSoC project.
+
+Welcome to our GSoC 2023 Project - **_GPU Acceleration for PDE Solvers_**! 
 
 Here we share insights and updates about [Google Summer of Code 2023](https://summerofcode.withgoogle.com/) and the development journey of our project. Stay tuned for the latest on our progress and experiences in this wonderful program! 
-
-Notes: The latest progress of our project can be checked [here](https://github.com/users/huiyuxie/projects/2/views/1).
 
 ### About Developer
 
