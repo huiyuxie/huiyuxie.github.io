@@ -1,3 +1,3 @@
-# Website of Google Summer of Code Project
+# huiyuxie.github.io
 
-This repository contains the source code of the [Google Summer of Code Project](https://huiyuxie.github.io/) website.
+This repository contains the source code of the (https://huiyuxie.github.io/).
