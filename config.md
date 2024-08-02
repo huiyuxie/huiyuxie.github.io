@@ -2,7 +2,7 @@
 Add here global page variables to use throughout your website.
 -->
 +++
-author = "<a href=\"https://github.com/trixi-framework/Trixi.jl/blob/main/AUTHORS.md\" target=\"_blank\" rel=\"noopener noreferrer\">The Trixi Authors</a>"
+author = "<a href=\"https://github.com/huiyuxie\" target=\"_blank\" rel=\"noopener noreferrer\">Huiyu Xie</a>"
 mintoclevel = 2
 
 # Add here files or directories that should be ignored by Franklin, otherwise
@@ -13,8 +13,8 @@ ignore = ["node_modules/"]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = true
-website_title = "Google Summer of Code Project"
-website_descr = "Overview of the GSoC project within the Trixi Framework"
+website_title = "Huiyu Xie"
+website_descr = "Personal Website"
 website_url   = "https://huiyuxie.github.io/"
 +++
 

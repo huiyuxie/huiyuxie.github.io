@@ -1,11 +1,5 @@
-+++
-title = "Optimization"
-hascode = true
-rss = "Specific optimization processes for the GSoC project."
-rss_title = "Optimization"
-rss_pubdate = Date(2024, 5, 16)
-tags = ["GSoC", "optimization", "module"]
-+++
+@def title = "Google Summer of Code Project"
+@def maxtoclevel=2
 
 # Optimization 
 
