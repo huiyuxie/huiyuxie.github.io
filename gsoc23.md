@@ -3,27 +3,13 @@
 
 # Google Summer of Code Project 
 
-**_NEWS!_** &nbsp;The new module [**_Optimization_**](/optimization/) has been launched recently to provide the specific optimization process for this GSoC project.
+<!-- **_NEWS!_** &nbsp;The new module [**_Optimization_**](/optimization/) has been launched recently to provide the specific optimization process for this GSoC project. -->
 
 Welcome to our GSoC 2023 Project - **_GPU Acceleration for PDE Solvers_**! 
 
 Here we share insights and updates about [Google Summer of Code 2023](https://summerofcode.withgoogle.com/) and the development journey of our project. Stay tuned for the latest on our progress and experiences in this wonderful program! 
 
-### About Developer
-
-~~~
-<div class="row">
-  <div class="container">
-    <img class="left" src="/assets/profile.jpeg" width="150" height="150">
-    <p>
-    Huiyu(<a href="https://github.com/huiyuxie">@huiyuxie</a>) was selected as a contributor for GSoC 2023. She is passionate about high-performance computing (HPC), particularly in optimizing parallel computing on both CPUs and GPUs, and has an interest in mathematics, especially in numerical analysis. She continues to contribute to this project in her spare time.
-    </p>
-    <div style="clear: both"></div>
-  </div>
-</div>
-~~~
-
-### About Trixi Project
+### About Project
 
 ~~~
 <div class="row">
@@ -43,6 +29,8 @@ Here we share insights and updates about [Google Summer of Code 2023](https://su
 
 ## Recent Announcements
 
+### 
+
 ### New GPU Optimization Methods in Plan
 *May 15, 2024*
 
@@ -56,7 +44,7 @@ These optimizations, along with continuing development, will begin in the summer
 ### Numeric Type Stability in Upstream
 *Apr 28, 2024*
 
-Currently, double-precision floating-point numbers (`Float64`) are supported with type stability in the upstream repository. To add GPU support to Trixi.jl, we have to include support for single-precision floating-point numbers (`Float32`) to achieve significant speedup. This issue is addressed as a preliminary step for the entire CUDA project. 
+Currently, double-precision floating-point numbers (`Float64`) are supported with type stability in the upstream repository. To add GPU support to Trixi.jl, we have to include support for single-precision floating-point numbers (`Float32`) to achieve significant speedup. This issue is addressed as a preliminary step for the entire project. 
 
 Please check [here](https://github.com/huiyuxie/trixi_cuda/issues/12) for more details.
 
