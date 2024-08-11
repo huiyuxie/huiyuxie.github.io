@@ -22,7 +22,7 @@ Open source is my hobby, and I'm working as:
 
 - Lead developer of [**_TrixiGPU.jl_**](https://github.com/czha/TrixiGPU.jl) - GPU acceleration for solving hyperbolic PDEs, and I care about achieving high speed while preserving high precision numerical results.
 
-- Active maintainer of [**_Trixi.jl_**](https://github.com/trixi-framework/Trixi.jl) - a high order numerical simulation framework for hyperbolic PDEs, and I focus on providing both single precision and double precision support for numerical type stability during simulation.
+- Active maintainer of [**_Trixi.jl_**](https://github.com/trixi-framework/Trixi.jl) - high order numerical simulation framework for hyperbolic PDEs, and I focus on providing both single precision and double precision support for numerical type stability during simulation.
 
 - [**_Google Summer of Code_**](https://summerofcode.withgoogle.com/archive/2023/projects/upstR7K2) contributor - see [**_GSoC 2023_**](/gsoc23/) for more information.
 
