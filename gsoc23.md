@@ -29,25 +29,26 @@ Here we share insights and updates about [Google Summer of Code 2023](https://su
 
 ## Recent Announcements
 
-### 
+#### *Aug 5, 2024*
 
-### New GPU Optimization Methods in Plan
-*May 15, 2024*
+The original repository has been refactored into a dependent package named [TrixiGPU.jl](https://github.com/czha/TrixiGPU.jl), primarily aimed at providing various GPU support for Trixi.jl. The package will be transferred to the trixi-framework organization to enable the CI tests on GPU using [JuliaGPU Buildkite](https://github.com/JuliaGPU/buildkite). The package is now under active development and loacl testing.
 
-The original GPU implementation is planned to be optimized in these general ways:
+We welcome new developers. Please contact us!
+
+#### *May 15, 2024*
+
+Based on the discussion, the original naive GPU implementation is planned to be optimized in the following general ways:
 - Memory coalescing through shared memory 
 - Sparse matrix computation through CSC and CSR
 - Compensated summation algorithm
 
-These optimizations, along with continuing development, will begin in the summer of 2024. The developer will be in Hawaii this summer :)
+The primary challenge of optimization is about precision and performance (i.e., speed). Further research is required to determine how to achieve high precision and high performance at the same time.
 
-### Numeric Type Stability in Upstream
-*Apr 28, 2024*
+#### *Apr 28, 2024*
 
-Currently, double-precision floating-point numbers (`Float64`) are supported with type stability in the upstream repository. To add GPU support to Trixi.jl, we have to include support for single-precision floating-point numbers (`Float32`) to achieve significant speedup. This issue is addressed as a preliminary step for the entire project. 
-
-Please check [here](https://github.com/huiyuxie/trixi_cuda/issues/12) for more details.
-
+GPU support requires type stability of `Float32` to achieve better performance. However, type stability for `Float32` is not supported in the upstream (i.e., Trixi.jl), which causes errors in some GPU kernels during compilation. We are now beginning to enhance `Float32` support in the upstream:
+- Support for the solvers (focused on `Trixi.rhs!`) has been completed. See [PR#1909](https://github.com/trixi-framework/Trixi.jl/pull/1909) for all the related PRs.
+- Support for mesh initialization (such as `TreeMesh` and `StructuredMesh`) and callbacks is in progress. See [PR#2042](https://github.com/trixi-framework/Trixi.jl/pull/2042) for all the discussion.
 
 ## Post-GSoC23
 
