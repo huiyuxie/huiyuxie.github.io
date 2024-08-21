@@ -30,7 +30,7 @@ Open source is my hobby, and I'm working as:
 
 # More ...
 
-I'd like to give my special thanks to [@ranocha](https://github.com/ranocha), who guided me into the world of open source. Also, many thanks to [@ErikQQY](https://github.com/ErikQQY) from Zhejiang University and [@junyixu](https://github.com/junyixu) from University of Science and Technology of China for joining me as main developers of [**_TrixiGPU.jl_**](https://github.com/czha/TrixiGPU.jl). 
+I'd like to give my special thanks to [@ranocha](https://github.com/ranocha), who guided me into the world of open source. Also, many thanks to [@ErikQQY](https://github.com/ErikQQY) from Zhejiang University and [@junyixu](https://github.com/junyixu) from University of Science and Technology of China for joining me later as developers of [**_TrixiGPU.jl_**](https://github.com/czha/TrixiGPU.jl). 
 
 I always welcome more people join us. Please contact me if you're interested!
 
