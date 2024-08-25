@@ -20,9 +20,9 @@
 
 Open source is my hobby, and I'm working as:
 
-- Lead developer of [**_TrixiGPU.jl_**](https://github.com/czha/TrixiGPU.jl) - GPU acceleration for solving hyperbolic PDEs, and I care about achieving high speed while preserving high precision numerical results.
+- Lead developer of [**_TrixiGPU.jl_**](https://github.com/czha/TrixiGPU.jl) - GPU acceleration support for solving hyperbolic PDEs. What I care about is achieving extremely high parallelization speedup on high dimensional data.
 
-- Active maintainer of [**_Trixi.jl_**](https://github.com/trixi-framework/Trixi.jl) - high order numerical simulation framework for hyperbolic PDEs, and I focus on providing both single precision and double precision support for numerical type stability during simulation.
+- Active maintainer of [**_Trixi.jl_**](https://github.com/trixi-framework/Trixi.jl) - high order numerical simulation framework for hyperbolic PDEs. What I focus on is providing single precision support for numerical type stability during simulation.
 
 - [**_Google Summer of Code_**](https://summerofcode.withgoogle.com/archive/2023/projects/upstR7K2) contributor - see [**_GSoC 2023_**](/gsoc23/) for more information.
 
@@ -30,7 +30,7 @@ Open source is my hobby, and I'm working as:
 
 # More ...
 
-I'd like to give my special thanks to [@ranocha](https://github.com/ranocha), who guided me into the world of open source. Also, many thanks to [@ErikQQY](https://github.com/ErikQQY) from Zhejiang University and [@junyixu](https://github.com/junyixu) from University of Science and Technology of China for joining me later as developers of [**_TrixiGPU.jl_**](https://github.com/czha/TrixiGPU.jl). 
+I'd like to give my special thanks to [@ranocha](https://github.com/ranocha), who has given me full support in the world of open source. Also, many thanks to [@ErikQQY](https://github.com/ErikQQY) from Zhejiang University and [@junyixu](https://github.com/junyixu) from University of Science and Technology of China for joining me later as developers of [**_TrixiGPU.jl_**](https://github.com/czha/TrixiGPU.jl). 
 
 I always welcome more people join us. Please contact me if you're interested!
 
