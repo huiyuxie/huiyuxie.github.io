@@ -20,7 +20,7 @@
 
 Open source is my hobby, and I'm working as:
 
-- Lead developer of [**_TrixiGPU.jl_**](https://github.com/czha/TrixiGPU.jl) - GPU acceleration support for solving hyperbolic PDEs. What I care about is achieving extremely high parallelization speedup on high dimensional data.
+- Lead developer of [**_TrixiGPU.jl_**](https://github.com/czha/TrixiGPU.jl) - GPU acceleration support for solving hyperbolic PDEs. What I care about is achieving high parallelization speedup on high order numerical simulation.
 
 - Active maintainer of [**_Trixi.jl_**](https://github.com/trixi-framework/Trixi.jl) - high order numerical simulation framework for hyperbolic PDEs. What I focus on is providing single precision support for numerical type stability during simulation.
 
