@@ -31,7 +31,7 @@ Here we share insights and updates about [Google Summer of Code 2023](https://su
 
 #### *Aug 5, 2024*
 
-The original repository has been refactored into a dependent package named [TrixiGPU.jl](https://github.com/czha/TrixiGPU.jl), primarily aimed at providing various GPU support for Trixi.jl. The package will be transferred to the trixi-framework organization to enable the CI tests on GPU using [JuliaGPU Buildkite](https://github.com/JuliaGPU/buildkite). The package is now under active development and loacl testing.
+The original repository has been refactored into a dependent package named [TrixiGPU.jl](https://github.com/czha/TrixiGPU.jl), primarily aimed at providing various GPU support for Trixi.jl. The package will be transferred to the trixi-framework organization to enable the CI tests on GPU using [JuliaGPU Buildkite](https://github.com/JuliaGPU/buildkite). The package is now under active development and testing.
 
 We welcome new developers. Please contact us!
 
