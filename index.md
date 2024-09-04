@@ -9,7 +9,8 @@
     <img class="left" src="/assets/profile.png" width="200" height="200" style="flex-shrink: 0;">
     <div>
       <p>Hello! I'm Huiyu Xie.</p>
-      <p>I'm now staying in Hawai'i and exploring the world on my own. I love math, surfing, and coding.</p>
+      <p>I'm now staying in Hawai'i and exploring the world on my own. I love math and surfing.</p>
+      <p>I prefer code that's short but readable and efficient.</p>
       <p>Here is my <a href="/assets/files/resume.pdf" target="_blank"><strong><em>resume</em></strong></a>.</p>
     </div>
   </div>
@@ -30,7 +31,7 @@ Open source is my hobby, and I'm working as:
 
 # More ...
 
-I'd like to give my special thanks to [@ranocha](https://github.com/ranocha), who has given me full support in the world of open source. Also, many thanks to [@ErikQQY](https://github.com/ErikQQY) from Zhejiang University and [@junyixu](https://github.com/junyixu) from University of Science and Technology of China for joining me later as developers of [**_TrixiGPU.jl_**](https://github.com/czha/TrixiGPU.jl). 
+I'd like to give my special thanks to [@ranocha](https://github.com/ranocha), who has given me full support in the world of open source. Also, many thanks to [@ErikQQY](https://github.com/ErikQQY) and [@junyixu](https://github.com/junyixu) for joining me later as developers of [**_TrixiGPU.jl_**](https://github.com/czha/TrixiGPU.jl). 
 
 I always welcome more people join us. Please contact me if you're interested!
 
