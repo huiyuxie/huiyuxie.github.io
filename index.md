@@ -10,7 +10,7 @@
     <div>
       <p>Hello! I'm Huiyu Xie.</p>
       <p>I'm now staying in Hawai'i and exploring the world on my own. I love math and surfing.</p>
-      <p>I prefer code that's short but readable and efficient.</p>
+      <p>I love code that's concise but readable and efficient.</p>
       <p>Here is my <a href="/assets/files/resume.pdf" target="_blank"><strong><em>resume</em></strong></a>.</p>
     </div>
   </div>
