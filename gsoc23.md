@@ -5,9 +5,9 @@
 
 <!-- **_NEWS!_** &nbsp;The new module [**_Optimization_**](/optimization/) has been launched recently to provide the specific optimization process for this GSoC project. -->
 
-Welcome to our GSoC 2023 Project - **_GPU Acceleration for PDE Solvers_**! 
+Welcome to our GSoC 2023 Project - **_GPU Acceleration for PDE Solvers_**.
 
-Here we share insights and updates about [Google Summer of Code 2023](https://summerofcode.withgoogle.com/) and the development journey of our project. Stay tuned for the latest on our progress and experiences in this wonderful program! 
+Here we share updates and insights about [Google Summer of Code 2023](https://summerofcode.withgoogle.com/archive/2023/projects/upstR7K2) and the development journey of our project. Stay tuned for the latest on our progress! 
 
 ### About Project
 
@@ -31,9 +31,9 @@ Here we share insights and updates about [Google Summer of Code 2023](https://su
 
 #### *Aug 5, 2024*
 
-The original repository has been refactored into a dependent package named [TrixiGPU.jl](https://github.com/czha/TrixiGPU.jl), primarily aimed at providing various GPU support for Trixi.jl. The package will be transferred to the trixi-framework organization to enable the CI tests on GPU using [JuliaGPU Buildkite](https://github.com/JuliaGPU/buildkite). The package is now under active development and testing.
+After one year of development, the original project repository has been refactored into a dependent package named [TrixiGPU.jl](https://github.com/czha/TrixiGPU.jl), primarily aimed at providing various GPU support for Trixi.jl. GPU-related tests are now conducted locally due to constrained resources. Once the package is transferred back to the trixi-framework organization, it will enable remote GPU CI testing using [JuliaGPU Buildkite](https://github.com/JuliaGPU/buildkite). The package is currently under active development and testing.
 
-We welcome new developers. Please contact us!
+We welcome new developers. If you're interested, please contact us!
 
 #### *May 15, 2024*
 
@@ -71,11 +71,11 @@ GPU support requires type stability of `Float32` to achieve better performance. 
 
 ## Acknowledgments
 
-The entire project, along with this blog website, is developed and maintained by Huiyu([@huiyuxie](https://github.com/huiyuxie)). The whole project is under the guidance of two outstanding professors, Hendrik([@ranocha](https://github.com/ranocha)) and Michael([@sloede](https://github.com/sloede)), from Trixi Framework community. 
+The entire project, along with this blog website, is developed and maintained by Huiyu([@huiyuxie](https://github.com/huiyuxie)). The whole project is under the guidance of two good professors, Hendrik([@ranocha](https://github.com/ranocha)) and Michael([@sloede](https://github.com/sloede)), from trixi-framework community. 
 
-The project also received support from other Julia contributors,  including Jesse([@jlchan](https://github.com/jlchan)) from Trixi Framework community and Tim([@maleadt](https://github.com/maleadt)) from JuliaGPU community.
+The project also received support from other Julia contributors, including Jesse([@jlchan](https://github.com/jlchan)) from trixi-framework community and Tim([@maleadt](https://github.com/maleadt)) from JuliaGPU community.
 
 Big thanks to all those who have contributed to the development of this project!
 
 ## Contact Developer
-If you have questions, suggestions, or are interested in contributing, feel free to reach out our developer, Huiyu, via email at [huiyuxie.sde@gmail.com](mailto:huiyuxie.sde@gmail.com).
+If you have questions, suggestions, or are interested in contributing, feel free to reach out our lead developer via email at [huiyuxie.sde@gmail.com](mailto:huiyuxie.sde@gmail.com).
