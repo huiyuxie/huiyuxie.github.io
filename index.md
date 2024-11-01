@@ -9,8 +9,7 @@
     <img class="left" src="/assets/profile.png" width="200" height="200" style="flex-shrink: 0;">
     <div>
       <p>Hello! I'm Huiyu Xie.</p>
-      <p>I'm now staying in Hawai'i and exploring the world on my own. I love math and surfing.</p>
-      <p>I love code that's concise but readable and efficient.</p>
+      <p>I'm now staying in Hawai'i. I love math, coding, and surfing.</p>
       <p>Here is my <a href="/assets/files/resume.pdf" target="_blank"><strong><em>resume</em></strong></a>.</p>
     </div>
   </div>
@@ -19,19 +18,22 @@
 
 # Star Work
 
-Open source is my hobby, and I'm working as:
+I love open source development, and I'm working as:
 
-- Lead developer of [**_TrixiCUDA.jl_**](https://github.com/trixi-gpu/TrixiCUDA.jl) - GPU acceleration support for solving hyperbolic PDEs. What I care about is achieving high parallelization speedup on high order numerical simulation.
+- Owner/Lead developer of [**_Trixi-GPU_**](https://trixi-gpu.github.io/), providing acceleration support for solving hyperbolic PDEs on GPUs by achieving high parallelization and minimizing data transfer. \
+  \
+  I host the organization webpage here [**_trixi-gpu.github.io_**](https://trixi-gpu.github.io/).
 
-- Active maintainer of [**_Trixi.jl_**](https://github.com/trixi-framework/Trixi.jl) - high order numerical simulation framework for hyperbolic PDEs. What I focus on is providing single precision support for numerical type stability during simulation.
+- Member/Active maintainer of [**_Trixi-Framework_**](https://github.com/trixi-framework/), providing low-precision (single precision and half precision) numerical type stability support for solving hyperbolic PDEs on CPUs.
 
-- [**_Google Summer of Code_**](https://summerofcode.withgoogle.com/archive/2023/projects/upstR7K2) contributor - see [**_GSoC 2023_**](/gsoc23/) for more information.
+- Contributor of [**_JuliaGPU_**](https://github.com/juliagpu), open source software GPU computing in Julia.
+
+- Contributor of [**_SciML_**](https://github.com/SciML), open source software for scientific machine learning.
+
+- Contributor of [**_RAPIDS_**](https://github.com/rapidsai), open source software for GPU-accelerated data science.
+
+- [**_Google Summer of Code_**](https://summerofcode.withgoogle.com/archive/2023/projects/upstR7K2) contributor.
+
+- Reviewer of [**_JuliaCon 2024_**](https://juliacon.org/2024/).
 
 - More to explore...
-
-# More ...
-
-I'd like to give my special thanks to [@ranocha](https://github.com/ranocha), who has given me full support in the world of open source. Also, many thanks to [@ErikQQY](https://github.com/ErikQQY) and [@junyixu](https://github.com/junyixu) for joining me later as developers of [**_TrixiGPU.jl_**](https://github.com/czha/TrixiGPU.jl). 
-
-I always welcome more people join us. Please contact me if you're interested!
-
