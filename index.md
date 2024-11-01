@@ -20,9 +20,9 @@
 
 I love open source development, and I'm working as:
 
-- Owner/Lead developer of [**_Trixi-GPU_**](https://trixi-gpu.github.io/), providing acceleration support for solving hyperbolic PDEs on GPUs by achieving high parallelization and minimizing data transfer. \
-  \
-  I host the organization webpage here [**_trixi-gpu.github.io_**](https://trixi-gpu.github.io/).
+- Owner/Lead developer of [**_Trixi-GPU_**](https://trixi-gpu.github.io/), providing acceleration support for solving hyperbolic PDEs on GPUs by achieving high parallelization and minimizing data transfer.
+
+- I host the organization webpage here [**_trixi-gpu.github.io_**](https://trixi-gpu.github.io/).
 
 - Member/Active maintainer of [**_Trixi-Framework_**](https://github.com/trixi-framework/), providing low-precision (single precision and half precision) numerical type stability support for solving hyperbolic PDEs on CPUs.
 
@@ -32,8 +32,8 @@ I love open source development, and I'm working as:
 
 - Contributor of [**_RAPIDS_**](https://github.com/rapidsai), open source software for GPU-accelerated data science.
 
-- [**_Google Summer of Code_**](https://summerofcode.withgoogle.com/archive/2023/projects/upstR7K2) contributor.
+- [**_JuliaCon 2024_**](https://juliacon.org/2024/) reviewer.
 
-- Reviewer of [**_JuliaCon 2024_**](https://juliacon.org/2024/).
+- [**_Google Summer of Code 2023_**](https://summerofcode.withgoogle.com/archive/2023/projects/upstR7K2) contributor.
 
 - More to explore...
