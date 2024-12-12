@@ -10,7 +10,7 @@
     <div>
       <p>Hello! I'm <strong>Huiyu Xie</strong>. I'm now living in <strong>Hawai'i</strong> for my hobby—surfing. I also love coding and photography.</p> 
 
-      <p>My research interest lies in <strong>Parallel Computing</strong>.</p>
+      <p>My research interest is <strong>Parallel Computing</strong>.</p>
       
       <p>Here’s a photo of a cute little squirrel.</p>
         <div style="text-align: center;">
@@ -46,7 +46,12 @@ I love open source development, and I'm working as:
 
 - More to explore...
 
+# News
+
+I will be mentoring a new project with [**_@jlchan_**](https://github.com/jlchan) on the parallelization of the mesh initialization process for solving PDEs on GPUs as part of Google Summer of Code 2025. Proposal details are currently under discussion and will be published on the [**_JuliaLang JSoC Projects_**](https://julialang.org/jsoc/projects/) by the end of 2024.
+
 # More...
+
 Here is my recent [**_resume_**](/assets/files/resume.pdf) (Last updated: November 29, 2024).
 
 As a true fan of proofs, I would recommend [**_Principles of Mathematical Analysis_**](https://en.wikipedia.org/wiki/Principles_of_Mathematical_Analysis) for its meticulous analysis and elegant, rigorous proofs.
