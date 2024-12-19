@@ -10,7 +10,7 @@
     <div>
       <p>Hello! I'm Huiyu Xie. I'm now living in Hawai'i for my hobby—surfing. I also love coding and photography.</p> 
 
-      <p>My research interest is parallel computing, and my current work is about GPU programming for solving PDEs.</p>
+      <p>My research interest is parallel computing, especially its theoretical part. My current work is about GPU programming for solving PDEs.</p>
       
       <!-- <p>Here’s a photo of a cute little squirrel.</p>
         <div style="text-align: center;">
@@ -56,4 +56,4 @@ I love open source development, and I'm working as:
 
 Here is my recent [resume](/assets/files/resume.pdf) (Last updated: November 29, 2024).
 
-Regarding math, I love both analysis and proofs. I recommend [Principles of Mathematical Analysis](https://en.wikipedia.org/wiki/Principles_of_Mathematical_Analysis) for its rigor and elegance. It is perfect for beginners in analysis and proofs.
+Regarding math, I love both analysis and proofs. I recommend [Principles of Mathematical Analysis](https://en.wikipedia.org/wiki/Principles_of_Mathematical_Analysis) for its rigor and elegance. It's perfect for beginners in analysis and proofs.
