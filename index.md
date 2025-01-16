@@ -24,9 +24,9 @@
 
 # News
 
-- Update on _Dec 18, 2024_: I will be giving a lightning talk at JuliaCon 2025 to introduce TrixiCUDA.jl to the Julia community.
+- Update on _Jan 16, 2024_: I will be mentoring a [new project](https://julialang.org/jsoc/gsoc/trixi/#adaptive_mesh_refinement_on_gpus_with_cuda_dynamic_parallelism) as part of Google Summer of Code 2025. Please reach out if you are interested.
 
-- Update on _Dec 12, 2024_: I will be mentoring a new GPU-related project with [@jlchan](https://github.com/jlchan) as part of Google Summer of Code 2025.
+- Update on _Dec 18, 2024_: I will be giving a lightning talk at JuliaCon 2025 to introduce TrixiCUDA.jl to the Julia community.
 
 # Star Work
 
