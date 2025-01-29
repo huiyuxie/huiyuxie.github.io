@@ -32,7 +32,7 @@
 
 I love open source development, and I'm working as:
 
-- Owner/Lead developer of [Trixi-GPU](https://trixi-gpu.github.io/), providing GPU acceleration support for solving hyperbolic PDEs, with a current focus on the semidiscretization process of the solvers.
+- Owner/Lead developer of [Trixi-GPU](https://github.com/trixi-gpu), providing GPU acceleration support for solving hyperbolic PDEs, with a current focus on the semidiscretization process of the solvers.
 
 - Host of the organization's webpage [trixi-gpu.github.io](https://trixi-gpu.github.io/).
 
