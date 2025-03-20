@@ -8,9 +8,9 @@
   <div class="container" style="display: flex; align-items: center;">
     <!-- <img class="left" src="/assets/profile.png" width="200" height="200" style="flex-shrink: 0;"> -->
     <div>
-      <p>Hello! I'm Huiyu Xie. I'm now living in Hawai'i for my hobby—surfing. I also love coding and photography.</p> 
-
-      <p>My research interest is parallel computing, especially its theoretical part. My current work is about GPU programming for solving PDEs.</p>
+      <p>Hello! I'm Huiyu Xie. My research interest is parallel computing, especially its theoretical part.</p>
+      
+      <P>My current work is about GPU programming for solving PDEs.</p>
       
       <!-- <p>Here’s a photo of a cute little squirrel.</p>
         <div style="text-align: center;">
@@ -24,9 +24,11 @@
 
 # News
 
-- Update on _Jan 16, 2024_: I will be mentoring a [new project](https://julialang.org/jsoc/gsoc/trixi/#adaptive_mesh_refinement_on_gpus_with_cuda_dynamic_parallelism) as part of Google Summer of Code 2025. Please reach out if you are interested.
+- Update on _Mar 20, 2025_: I will be giving a [lightning talk](https://pretalx.com/juliacon-2025/talk/review/CGCGGDRWGFARZT9ZYZ3QPAJZQDL38X8G) about TrixiCUDA.jl at JuliaCon 2025 this summer at Carnegie Mellon University in Pittsburgh.
 
-- Update on _Dec 18, 2024_: I will be giving a lightning talk at JuliaCon 2025 to introduce TrixiCUDA.jl to the Julia community.
+- Update on _Mar 8, 2025_: I will be visiting Virginia Tech at [Tim Warburton](https://scholar.google.com/citations?user=ULTQG6QAAAAJ&hl=en)'s lab this summer to conduct research on GPU-based simulation.
+
+- Update on _Jan 16, 2024_: I will be mentoring a new [CUDA project](https://julialang.org/jsoc/gsoc/trixi/#adaptive_mesh_refinement_on_gpus_with_cuda_dynamic_parallelism) as part of Google Summer of Code 2025. Please reach out if you are interested.
 
 # Star Work
 
@@ -44,11 +46,9 @@ I love open source development, and I'm working as:
 
 - Contributor of [RAPIDS](https://github.com/rapidsai), open source software for GPU-accelerated data science.
 
-- [JuliaCon 2025](https://juliacon.org/2024/) conference attendee.
+- Reviewer of [JuliaCon 2024](https://juliacon.org/2024/), [JuliaCon 2025](https://juliacon.org/2025/).
 
-- [JuliaCon 2024](https://juliacon.org/2024/) proposal reviewer.
-
-- [Google Summer of Code 2023](https://summerofcode.withgoogle.com/archive/2023/projects/upstR7K2) contributor.
+- Contributor of [Google Summer of Code 2023](https://summerofcode.withgoogle.com/archive/2023/projects/upstR7K2).
 
 - More to explore...
 
