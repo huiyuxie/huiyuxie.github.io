@@ -24,7 +24,7 @@
 
 # News
 
-- Update on _Mar 20, 2025_: I will be giving a [lightning talk](https://pretalx.com/juliacon-2025/talk/review/CGCGGDRWGFARZT9ZYZ3QPAJZQDL38X8G) about TrixiCUDA.jl at JuliaCon 2025 this summer at Carnegie Mellon University in Pittsburgh.
+- Update on _Mar 20, 2025_: I will be giving a [lightning talk](https://pretalx.com/juliacon-2025/talk/review/CGCGGDRWGFARZT9ZYZ3QPAJZQDL38X8G) about TrixiCUDA.jl at JuliaCon 2025 this summer at University of Pittsburgh/Carnegie Mellon.
 
 - Update on _Mar 8, 2025_: I will be visiting Virginia Tech at [Tim Warburton](https://scholar.google.com/citations?user=ULTQG6QAAAAJ&hl=en)'s lab this summer to conduct research on GPU-based simulation.
 
