@@ -8,9 +8,17 @@
   <div class="container" style="display: flex; align-items: center;">
     <!-- <img class="left" src="/assets/profile.png" width="200" height="200" style="flex-shrink: 0;"> -->
     <div>
-      <p>Hello! I'm Huiyu Xie. My research interest is parallel computing, especially its theoretical part.</p>
+      <p>Hello! I'm Huiyu Xie. My research interests are in numerical parallel algorithms, with a focus on nodal Discontinuous Galerkin methods on GPUs.</p>
       
-      <P>My current work is about GPU programming for solving PDEs.</p>
+      <p>
+        My current work is primarily focused on GPU programming for solving hyperbolic PDEs. I'm now working on open-source software projects, including
+        <a href="https://github.com/trixi-framework/Trixi.jl" target="_blank">Trixi.jl</a>,
+        <a href="https://github.com/trixi-gpu/TrixiCUDA.jl" target="_blank">TrixiCUDA.jl</a>,
+        and
+        <a href="https://github.com/paranumal/libparanumal" target="_blank">libparanumal</a>.
+      </p>
+
+
       
       <!-- <p>Here’s a photo of a cute little squirrel.</p>
         <div style="text-align: center;">
