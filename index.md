@@ -62,6 +62,6 @@ I love open source development, and I'm working as:
 
 # More...
 
-Here is my recent [CV](/assets/files/cv.pdf) (Last updated: August 4, 2025).
+Here is my recent [CV](/assets/files/cv.pdf) (Last updated: August 5, 2025).
 
 Regarding math, I love both analysis and proofs. I recommend [Principles of Mathematical Analysis](https://en.wikipedia.org/wiki/Principles_of_Mathematical_Analysis) for its rigor and elegance. It's perfect for beginners in analysis and proofs.
